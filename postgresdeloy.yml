@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-postgres-app
-        image: minh15988/postgrestest:postgres-docker
+        image: minh15988/postgres-docker-demo:v0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 5432
